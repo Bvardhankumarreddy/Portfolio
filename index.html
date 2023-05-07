@@ -64,9 +64,10 @@
                         </div>
                         <div class="tab-contents" id="experience">
                             <ul>
-                                <li><span>10-03-2021 - 15-06-2021</span><br>Internship at 360 Research Foundation</li>
-                                <li><span>10-03-2021 - 15-06-2021</span><br>Internship at 360 Research Foundation</li>
-                                <li><span>10-03-2021 - 15-06-2021</span><br>Internship at 360 Research Foundation</li>
+                                <li><span>21/05/2021 - 24/07/2021</span><br>Website Development at 360 Research Foundation (Work-from-home)</li>
+                                <li><span>05/06/2021 - 19/07/2021</span><br>Summer Internship Program in Internet of Things</li>
+                                <li><span>15/06/2020 - 14/07/2020</span><br>YouTube Marketing (Work-from-home)</li>
+                                <li><span>08/06/2020 - 03/07/2020</span><br>Gamification With AR & VR (Work-from-home)</li>
                             </ul>
                         </div>
                         <div class="tab-contents" id="education">
@@ -192,8 +193,8 @@
                     </div>
                 </div>
                 
-
-                <a href="#" class="btn">See More</a>
+                <!-- <button id="seeMoreBtn" onclick="showmore()">See More</button> -->
+                <a href="#" class="btn" id="seemorebtn" onclick="showmore()">See More</a>
             </div>
             
         </div>
@@ -282,4 +283,22 @@
             .catch(error => console.error('Error!', error.message))
         })
       </script>
-</html>
+      <!-- <script>
+
+        function showmore(){
+            // console.log("Show the Data");
+
+            var content = document.getElementById("work-list");
+            var btn = document.getElementById("seemorebtn");
+            if (content.style.display === "none") {
+                content.style.display = "block";
+                btn.innerHTML = "See Less";
+            } 
+            else {
+                content.style.display = "none";
+                btn.innerHTML = "See More";
+            }
+        }
+
+      </script>
+</html> -->
